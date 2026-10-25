@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Swift / Xcode build outputs
+.build/
+.swiftpm/
+DerivedData/
+*.xcarchive
+*.xcuserstate
+
+# Local build products
+build/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Profiling and diagnostic dumps
+*.trace
+*.sample
+*.spindump
